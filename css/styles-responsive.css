@@ -1,0 +1,274 @@
+.hamburger{
+  display: none;
+}
+
+.close{
+  display: none;
+  justify-self: end;
+}
+
+.responsive-navbar-tags{
+  margin: 30px 0;
+  padding: 25px 0;
+  display: grid;
+  grid-row-gap: 25px;
+  justify-items: center;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 4px;
+  display: none;
+}
+
+.responsive-navbar-tag{
+  color: hsl(228, 39%, 23%);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#carouselExampleIndicators{
+  display: none;
+}
+
+.responsive-copyrights{
+  display: none;
+}
+
+@media(max-width:376px){
+
+  .first-part{
+    padding: 30px 20px 0;
+    background-position: -100% -50%;
+    background-size: 120%;
+  }
+
+  .my-navbar{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hamburger{
+    display: block;
+    justify-self: end;
+  }
+
+  .navbar-tags{
+    display: none;
+  }
+
+  .my-navbar .get-started{
+    display: none;
+  }
+
+  .agenda-graph{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .agenda{
+    padding-top: 0;
+    padding-bottom: 110px;
+    grid-row: 2;
+    background-image: url("images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 640% 120%;
+  }
+
+  .agenda-text{
+    font-size: 40px;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .agenda-description{
+    padding-right: 0;
+    width: 88%;
+    margin: 30px auto 60px;
+    text-align: center;
+    line-height: 1.9;
+  }
+
+  .agenda .get-started{
+    margin-left: 30%;
+  }
+
+  .graph img{
+    width: 100%;
+  }
+
+  .background-graphic{
+    background-image: none;
+  }
+
+  .second-part{
+    padding: 0;
+    display: block;
+  }
+
+  .question{
+    padding: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .answer{
+    padding-right: 0;
+    width: 86%;
+    text-align: center;
+    margin: 30px auto 60px;
+    text-align: center;
+    line-height: 1.9;
+  }
+
+  .bundle{
+    display: block;
+  }
+
+  .bundle-number{
+    display: inline-block;
+    margin-left: 13px;
+  }
+
+  .bundle-number p{
+    padding: 6px 20px;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .highlight-box{
+    display: inline;
+  }
+
+  .highlight{
+    display: inline;
+    color: hsl(228, 39%, 23%);
+    font-size: 18px;
+  }
+
+  .highlight-description{
+    padding-right: 0;
+    font-size: 14px;
+    margin: 30px 2px 0 12px;
+    line-height: 1.9;
+  }
+
+  .carouselTitle{
+    margin: 70px 0 0;
+    font-size: 32px;
+  }
+
+  .testimonials{
+    display: none;
+  }
+
+  #carouselExampleIndicators{
+    display: block;
+    margin: 0 10px;
+    margin-bottom: 70px;
+  }
+
+  .carousel-testimonial{
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+    margin-top: 90px;
+    position: relative;
+    padding: 50px 20px 0;
+    border-radius: 4px;
+  }
+
+  .carousel-testimonial img{
+    width: 22%;
+    position: absolute;
+    left: 40%;
+    top: -17%;
+  }
+
+  .carousel-testimonial h3{
+    font-size: 18px;
+    color: hsl(228, 39%, 23%);
+    margin-bottom: 15px;
+  }
+
+  .carousel-testimonial p{
+    font-size: 14px;
+    color: hsl(227, 12%, 61%);
+    line-height: 1.8;
+  }
+
+  .carousel-indicators li{
+    background-color: hsl(12, 88%, 59%);
+  }
+
+  .carousel-indicators{
+    position: relative;
+    top: 20px;
+  }
+
+  .carousel-get-started{
+    margin-left: 34%;
+  }
+
+  .bar{
+    margin-top: 60px;
+    padding: 60px 50px 90px;
+    display: block;
+    text-align: center;
+    background-image: url("images/bg-simplify-section-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .quote{
+    padding-right: 0;
+  }
+
+  .bar-button{
+    margin-top: 60px;
+  }
+
+  .footer{
+    padding: 50px 0 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .newsletter-copyrights{
+    grid-row: 1;
+    text-align: center;
+  }
+
+  #error{
+    margin-left: 0;
+    position: relative;
+    left: -65px;
+  }
+
+  .tags{
+    grid-row: 2;
+    margin: 40px auto;
+    grid-column-gap: 60px;
+  }
+
+  .logo-social{
+    text-align: center;
+  }
+
+  .logo{
+    margin: 40px 0 40px 30%;
+  }
+
+  .social{
+    grid-row: 1;
+  }
+
+  .social-icon{
+    margin-right: 25px;
+  }
+
+  .copyrights{
+    display: none;
+  }
+
+  .responsive-copyrights{
+    display: block;
+    font-size: 14px
+  }
+}

@@ -1,0 +1,299 @@
+body{
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.first-part{
+  padding: 80px 100px 0;
+  background-image: url("images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: 130% 170%;
+}
+
+.my-navbar{
+  display: grid;
+  grid-template-columns:  1fr 1.2fr 1fr;
+}
+
+.my-navbar-logo{
+  align-self: center;
+}
+
+.navbar-tags{
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 32px;
+}
+
+.navbar-tag{
+  color: hsl(228, 39%, 23%);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar-tag:hover{
+  color: hsl(227, 12%, 61%);
+  text-decoration: none;
+}
+
+.get-started{
+  justify-self: end;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(12, 88%, 59%);
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: box-shadow 0.6s;
+}
+
+.get-started:hover{
+  color: white;
+  text-decoration: none;
+  box-shadow: 2px 6px 17px hsl(12, 88%, 59%);
+}
+
+.agenda-graph{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.agenda{
+  padding-top: 45px;
+}
+
+.agenda-text{
+  color: hsl(228, 39%, 23%);
+  font-size: 50px;
+  padding-right: 110px;
+  font-weight: 700;
+}
+
+.agenda-description{
+  padding-right: 320px;
+  margin: 30px 0 60px;
+  color: hsl(227, 12%, 61%);
+}
+
+.graph{
+  justify-self: end;
+}
+
+.background-graphic{
+  background-image: url("images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: -65% 80%;
+}
+
+.second-part{
+  padding: 120px 100px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.question{
+  color: hsl(228, 39%, 23%);
+  padding: 5px 110px 30px 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.answer{
+  padding-right: 330px;
+  color: hsl(227, 12%, 61%);
+}
+
+.second-right{
+  display: grid;
+  grid-row-gap: 40px;
+}
+
+.bundle{
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+}
+
+.bundle-number{
+  justify-self: center;
+}
+
+.bundle-number p{
+  color: white;
+  background-color: hsl(12, 88%, 59%);
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.highlight{
+  color: hsl(228, 39%, 23%);
+  font-weight: 500;
+  margin: 6px 0 26px;
+}
+
+.highlight-description{
+  padding-right: 70px;
+  color: hsl(227, 12%, 61%);
+}
+
+.carouselTitle{
+  margin: 110px 0;
+  text-align: center;
+  color: hsl(228, 39%, 23%);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.testimonials{
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+
+.testimonial{
+  text-align: center;
+  background-color: hsl(0, 0%, 98%);
+  font-size: 14px;
+  position: relative;
+  padding: 60px 40px 30px;
+  border-radius: 4px;
+  margin-bottom: 80px;
+}
+
+.testimonial img{
+  width: 16%;
+  position: absolute;
+  left: 43%;
+  top: -18%;
+}
+
+.testimonial h3{
+  font-size: 18px;
+  color: hsl(228, 39%, 23%);
+  margin-bottom: 20px;
+}
+
+.testimonial p{
+  color: hsl(227, 12%, 61%);
+  line-height: 1.9;
+}
+
+.carousel-get-started{
+  margin-left: 46%;
+}
+
+.bar{
+  margin-top: 180px;
+  padding: 60px 100px;
+  background-color: hsl(12, 88%, 59%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url("images/bg-simplify-section-desktop.svg");
+  background-position: 165% 80%;
+}
+
+.quote{
+  color: white;
+  font-weight: 700;
+  padding-right: 200px;
+}
+
+.bar-button{
+  justify-self: end;
+  align-self: center;
+}
+
+.bar-button .get-started{
+  color: hsl(12, 88%, 59%);
+  background-color: white;
+}
+
+.bar-button .get-started:hover{
+  box-shadow: 2px 6px 20px -5px white;
+}
+
+.footer{
+  background-color: hsl(233, 12%, 13%);
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo-social{
+  display: grid;
+}
+
+.social{
+  align-self: end;
+}
+
+.social-icon{
+  color: white;
+  margin-right: 10px;
+}
+
+.social-icon:hover{
+  color: hsl(12, 88%, 59%);
+}
+
+.tags{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tags-left-part, .tags-right-part{
+  color: white;
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.footer-tag{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-tag:hover{
+  color: hsl(12, 88%, 59%);
+  text-decoration: none;
+}
+
+.newsletter-copyrights{
+  display: grid;
+}
+
+.newsletter input{
+  color: hsl(12, 88%, 59%);
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.newsletter button{
+  color: white;
+  background-color: hsl(12, 88%, 59%);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  transition: box-shadow 0.6s;
+}
+
+.newsletter button:hover{
+  box-shadow: 2px 6px 15px hsl(12, 88%, 59%);
+}
+
+#error{
+  color: hsl(12, 88%, 59%);
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.copyrights{
+  color: hsl(227, 12%, 61%);
+  align-self: end;
+  text-align: center;
+}
